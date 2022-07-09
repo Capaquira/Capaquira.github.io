@@ -1,0 +1,73 @@
+a{
+    color: red;
+    text-decoration: none;
+}
+
+a:hover{
+    color:greenyellow;
+}
+
+
+body{
+    background-color:#2063A5; 
+    background-image: url("https://freepngimg.com/download/airplane/58339-simple-pattern-decoration-plane-orange-airplane-cartoon.png"), linear-gradient(to right,#014B7D,#028FD7,#014B7D);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#Galeria{
+    font-size: 10rem; color: rgb(162, 254, 14);
+}
+
+h1{
+    color: orange;
+    font-size: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+h2{
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3 {
+    text-shadow: 0.2rem 0.2rem 0.4rem black;
+}
+
+hr{
+    border: none;
+    border-top: 0.7rem dotted #CCCCCC;
+    margin-bottom: 3rem;
+    width: 70%;
+
+}
+
+table{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin: 3rem auto 3rem auto*/
+    /*margin: 3rem auto*/
+    width: 60%;
+}
+
+table, td{
+    border: 0.1rem solid orange;
+    border-collapse: collapse;
+    padding: 3rem;
+}
+
+thead td{
+    background-color: orange;
+    padding: 0;
+}
+
+.still-thumbnail{
+    width: 10rem;
+}
+
+.video-thumbnail{
+    width: 10rem;
+}
