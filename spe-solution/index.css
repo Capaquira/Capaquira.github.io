@@ -1,0 +1,93 @@
+.row {
+    margin-bottom: 15px;
+  }
+  .row > div {
+    border: 2px solid red;
+    background-color: gray;
+  }
+
+
+*{
+    box-sizing: border-box;
+}
+
+a:link, a:visited {
+    
+    text-decoration: none ;
+    background-color: #014B7D;
+    border: 2px solid whitesmoke;
+    color:whitesmoke;
+    display: block;
+    width: 385px;
+    text-align: center;
+    padding: 2px;
+    margin: 5px;
+}
+header {
+    align-items: center;
+    }
+
+
+a:hover, a:active {
+    color: #014B7D;
+    background-color: orange;
+    
+}
+
+
+body{
+    background-color:#2063A5; 
+    background-image: blue, linear-gradient(to right,#014B7D,#028FD7,#014B7D);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+
+h1{
+    color: orange;
+    font-size: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+
+hr{
+    border: none;
+    border-top: 0.7rem dotted #CCCCCC;
+    margin-bottom: 3rem;
+    width: 100%;
+    align-content: center;
+
+}
+
+
+
+
+p {
+width: 50%;
+/* border: 1px solid black; */
+float: left;
+text-align: justify;
+padding: 10px;
+height: 150px;
+overflow: auto;
+
+} 
+
+#p1{
+    background-color: #028FD7;
+}
+
+#p2{
+    background-color: burlywood;
+}
+
+#p3{
+    background-color: royalblue;
+}
+
+#p4{
+    background-color: black;
+}
