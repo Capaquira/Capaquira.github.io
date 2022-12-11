@@ -72,3 +72,100 @@ var myObj={
 for (var prop in myObj){
     console.log(prop+":"+myObj[prop]);
 }
+
+// function DecirHola (){
+//    console.log(
+//        document.getElementById("name").value
+//    )
+// }
+
+// function DecirHola (){
+
+//     var name =
+//     document.getElementById("name").value;
+//     var message="Hola "+name+"!";
+
+//     document
+//     .getElementById("contenido")
+//     .textContent=message;
+
+// }
+
+function DecirHola (){
+    this.textContent="Done";
+    console.log(this);
+    var name =
+    document.getElementById("name").value;
+    var message="<h2>Hola "+name+"!</h2>";
+
+    document
+    .getElementById("contenido1")
+    .innerHTML=message;
+
+    if (name==="Juan Carlos"){
+        var title=
+        document
+        .querySelector("#title")
+        .textContent;
+        title += " & Lovin' it!";
+        document
+        .querySelector("#title")
+        .textContent = title;
+
+    }
+}
+
+
+function DecirAdios (){
+    this.textContent="Hecho";
+    console.log(this);
+    var name2 =
+    document.getElementById("name2").value;
+    var message="<h3>Adios mi estimad@ "+name2+"!</h3>";
+
+    document
+    .getElementById("contenido2")
+    .innerHTML=message;
+
+    if (name2==="Juan Carlos"){
+        var title2=
+        document
+        .querySelector("#title")
+        .textContent;
+        title2 += " & will miss you!";
+        document
+        .querySelector("#title")
+        .textContent = title2;
+
+    }
+}
+
+document.querySelector("#PrimerB")
+ .addEventListener("click", DecirHola);
+
+document.querySelector("#PrimerB")
+  .onblur=DecirHola;
+
+
+document.querySelector("#SegundoB")
+   .addEventListener("click", DecirAdios);
+   
+document.querySelector("#SegundoB")
+  .onblur=DecirAdios;
+
+
+document.addEventListener("DOMContentLoaded",
+function(event){
+
+    document.querySelector("body")
+    .addEventListener("mousemove",
+    function (event){
+        if (event.shiftKey===true){
+            console.log("x: "+event.clientX);
+            console.log("y: "+event.clientY);
+        }
+    }
+    );
+
+}
+);
